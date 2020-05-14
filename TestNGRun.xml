@@ -1,0 +1,7 @@
+<suite name="application1">
+ <test name="CPverifyweb">
+ <classes>
+ <class name="application1.Test1" />
+ </classes>
+ </test>
+</suite>

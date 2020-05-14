@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="application1" duration-ms="38637" started-at="2020-05-14T17:37:15 CDT" finished-at="2020-05-14T17:37:54 CDT">
+    <groups>
+    </groups>
+    <test name="CPverifyweb" duration-ms="38637" started-at="2020-05-14T17:37:15 CDT" finished-at="2020-05-14T17:37:54 CDT">
+      <class name="application1.Test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:application1.Test1@3cef309d]" name="launchBrowser" is-config="true" duration-ms="18778" started-at="2020-05-14T17:37:15 CDT" finished-at="2020-05-14T17:37:34 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:application1.Test1@3cef309d]" name="verifyHomepageTitle" duration-ms="19404" started-at="2020-05-14T17:37:34 CDT" finished-at="2020-05-14T17:37:54 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:application1.Test1@3cef309d]" name="terminateBrowser" is-config="true" duration-ms="399" started-at="2020-05-14T17:37:54 CDT" finished-at="2020-05-14T17:37:54 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- application1.Test1 -->
+    </test> <!-- CPverifyweb -->
+  </suite> <!-- application1 -->
+</testng-results>
