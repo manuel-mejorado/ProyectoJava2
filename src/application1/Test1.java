@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 public class Test1 {
-	public String baseUrl = "http://demo.guru99.com/test/newtours/";
+	public String baseUrl = "http://www.bsdenterprise.com/Inicio.asp";
     String driverPath = "C:\\Users\\Manuel.Mejorado\\Documents\\Investigacion Jenkins\\Selenium\\chromedriver_win32\\chromedriver.exe";
     public WebDriver driver ; 
      
@@ -16,11 +16,12 @@ public class Test1 {
           driver.get(baseUrl);
       }
       @Test
-      public void verifyHomepageTitle() {
-          String expectedTitle = "Welcome: Mercury Tours";
+      public void verifyHomepageTitle() throws InterruptedException {
+          String expectedTitle = "BSD Enterprise.";
           String actualTitle = driver.getTitle();
           Assert.assertEquals(actualTitle, expectedTitle);
-          driver.findElement(By.linkText("REGISTER")).click() ;
+          Thread.sleep(5000);
+         // driver.findElement(By.ById("Contacto")).click() ;
      }
       @AfterTest
       public void terminateBrowser(){
